@@ -21,7 +21,7 @@ header{
     opacity: 1;
 }
 .upc{
-    background-image: url(/image/Prithviraj.jpeg);
+    background-image: url(image/Prithviraj.jpeg);
     background-color: rgb(29, 28, 28);
     background-blend-mode: overlay;
     display: block;
