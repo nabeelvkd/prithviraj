@@ -140,4 +140,45 @@ header{
 .imr-12:hover~.imdb .imdb-6,.imr-12:hover~.imdb .imdb-5,.imr-12:hover~.imdb .imdb-4,.imr-12:hover~.imdb .imdb-3,.imr-12:hover~.imdb .imdb-2,.imr-12:hover~.imdb .imdb-1{
     background-color: rgb(255, 217, 0);
 }
+.nn{
+    align-items: center;
+}
+#bar{
+    border: 1px solid #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+    height: 41rem;
+    position: fixed;
+    width: 80%;
+    top: -100rem;
+    left: 4.2rem;
+    background-color: rgba(255,255,255,0.3);
+    backdrop-filter: blur(10px) saturate(100%) contrast(45%) brightness(130%);
+    transition: 0.6s ease-in-out;
+}
+.red{
+    height: 20px;
+    width: 20px;
+    background-color: rgb(172, 5, 5);
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    border-radius:30% ;
+    transition: 0.2s;
+}
+.red:hover{
+    background-color:rgb(117, 5, 5);
+}
+.yt{
+    position: relative;
+    height: 12.93rem;
+    width:23rem;
+}
+.ezra{
+    font-weight: 1000;
+    font-size: 400%;
+}
+.imgp{
+    border-radius: 1%;
+}
 
